@@ -24,7 +24,6 @@
   }
 
   #dados{
-    background-color: #f9f9f9;
     grid-auto-flow: column;
     columns: auto;
   }
@@ -35,8 +34,10 @@
     padding: 10px;
     padding-top: 96px;
     padding-left: 171px;
+    padding-bottom: 66px;
     box-sizing: border-box;
     justify-content: space-evenly;
+    background-color: #f9f9f9;
 }
 
 @media screen and (max-width: 600px) {
@@ -45,3 +46,28 @@
     }
 }
 
+main {
+    width: 50%;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#textos{
+    margin: auto 54px auto 77px;
+    position: absolute;
+    width: 735px;
+    height: 161px;
+    left: 77px;
+    top: 1003px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#fotosala{
+    position: absolute;
+    width: 510px;
+    height: 605px;
+    left: 876px;
+    top: 781px;
+}
